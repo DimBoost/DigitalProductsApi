@@ -1,0 +1,39 @@
+﻿## Visual Studio ##
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build ##
+bin/
+obj/
+Debug/
+Release/
+
+## NuGet ##
+*.nupkg
+packages/
+*.snupkg
+
+## Entity Framework ##
+Migrations/
+
+## Rider ##
+.idea/
+
+## JetBrains ReSharper ##
+_ReSharper*/
+*.DotSettings.user
+
+## User-specific files ##
+*.log
+*.vsconfig
+
+## OS ##
+.DS_Store
+Thumbs.db
+
+## Environment / Secrets ##
+appsettings.*.json
+.env
