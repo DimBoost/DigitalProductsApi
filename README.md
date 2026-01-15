@@ -6,7 +6,7 @@ Das Projekt demonstriert folgende Skills:
 
 - Clean Architecture (Controllers, Services, DTOs) 
 - Datenbankanbindung mit Entity Framework Core
-- Datenvalidierung** mit FluentValidation
+- Datenvalidierung mit FluentValidation
 - JWT Authentication & Claims-basierte Autorisierung
 - Object Mapping mit AutoMapper
 - Globales Exception Handling
@@ -33,5 +33,5 @@ Das Projekt demonstriert folgende Skills:
 ---
 
 ## Hinweise
-- Das Projekt ist work in progress, daher noch nicht alle Features entwickelt
-- Die Architektur zeigen die aktuelle Fähigkeit im Backend-Design und C#/.NET 10
+- Das Projekt ist work in progress, daher sind noch nicht alle Features entwickelt
+- Die Anwendung zeigt die aktuelle Fähigkeit in der Backend Entwicklung mit C#/.NET 10, ASP.NET Core

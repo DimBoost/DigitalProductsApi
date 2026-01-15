@@ -5,6 +5,9 @@
 *.userosscache
 *.sln.docstates
 
+## ASP.NET Core ##
+Properties/
+
 ## Build ##
 bin/
 obj/
@@ -35,5 +38,6 @@ _ReSharper*/
 Thumbs.db
 
 ## Environment / Secrets ##
+appsettings.json
 appsettings.*.json
 .env
