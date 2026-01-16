@@ -17,12 +17,14 @@ namespace DigitalProductsApi.src.Api.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<List<ProductDto>>> Get()
         {
             return Ok(await _productService.GetAllAsync());
         }
 
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<ActionResult<ProductDto>> Get(Guid id)
         {
             return Ok(await _productService.GetByIdAsync(id));
